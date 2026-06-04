@@ -71,9 +71,35 @@ try{
     try{
       execSync('gh --version', { stdio: 'ignore' });
       const safeTitle = summary.replace(/\"/g, "'").slice(0,240);
-      const prOutput = execSync(`gh pr create --title "${safeTitle}" --body "Parche autoaplicado y commit generado automáticamente." --base main --head ${branch} --draft`, { cwd: ROOT });
+      const prOutput = execSync(`gh pr create --title "${safeTitle}" --body "Parche autoaplicado y commit generado automáticamente." --base main --head ${branch}`, { cwd: ROOT });
       const prUrl = prOutput.toString().trim();
       log(`PR created: ${prUrl}`);
+      // try to add labels/reviewers/assignees from config
+      try{
+        const cfgPath = path.resolve(__dirname, 'autoapply.config.json');
+        if(fs.existsSync(cfgPath)){
+          const cfg = JSON.parse(fs.readFileSync(cfgPath,'utf8'));
+          // determine PR number by head branch
+          let prNumber = null;
+          try{
+            prNumber = execSync(`gh pr view --head ${branch} --json number --jq .number`, { cwd: ROOT }).toString().trim();
+          }catch(e){}
+          if(prNumber){
+            if(Array.isArray(cfg.labels) && cfg.labels.length){
+              execSync(`gh pr edit ${prNumber} --add-label ${cfg.labels.join(',')}`, { cwd: ROOT });
+              log('Added labels: ' + cfg.labels.join(','));
+            }
+            if(Array.isArray(cfg.reviewers) && cfg.reviewers.length){
+              execSync(`gh pr edit ${prNumber} --add-reviewer ${cfg.reviewers.join(',')}`, { cwd: ROOT });
+              log('Requested reviewers: ' + cfg.reviewers.join(','));
+            }
+            if(Array.isArray(cfg.assignees) && cfg.assignees.length){
+              execSync(`gh pr edit ${prNumber} --add-assignee ${cfg.assignees.join(',')}`, { cwd: ROOT });
+              log('Added assignees: ' + cfg.assignees.join(','));
+            }
+          }
+        }
+      }catch(e){ log('Failed to add labels/reviewers/assignees: ' + e.message); }
     }catch(e){
       // gh not available or failed — provide manual URL
       try{
