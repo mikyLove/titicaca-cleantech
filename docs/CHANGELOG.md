@@ -6,6 +6,7 @@ Formato: SemVer. Cada entrada debe incluir la versión, la fecha y una lista de 
 
 ## [Unreleased]
 - Pendiente: describir cambios en desarrollo
+- fix: limpiar tipado de ReportForm y eliminar directivas ESLint innecesarias (2026-06-04)
 - feat: agregar `ReportForm` y `reportService` (stub) (2026-06-04)
 - fix: restaurar documentación borrada en working tree (2026-06-04)
 - docs: añadir ejemplo de interacción entre ChatGPT y GitHub Copilot en `docs/ROADMAP.md` (2026-06-04)

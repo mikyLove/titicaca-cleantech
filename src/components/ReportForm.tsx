@@ -18,7 +18,7 @@ export default function ReportForm() {
   const [submitting, setSubmitting] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
 
-  function onChange(field: keyof FormState, value: any) {
+  function onChange(field: keyof FormState, value: FormState[keyof FormState]) {
     setForm((s) => ({ ...s, [field]: value }));
   }
 
@@ -45,7 +45,6 @@ export default function ReportForm() {
       setForm({ title: "", description: "", location: "", file: null });
     } catch (err) {
       setMessage("Error al crear el reporte.");
-      // eslint-disable-next-line no-console
       console.error(err);
     } finally {
       setSubmitting(false);
