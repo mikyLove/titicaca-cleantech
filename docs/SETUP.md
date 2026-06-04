@@ -158,6 +158,13 @@ create policy "Usuarios ven sus imágenes"
   );
 ```
 
+> **Importante**: Si las políticas RLS de Storage no bastan, ejecuta estos GRANT para que los usuarios autenticados puedan acceder al schema `storage`:
+> ```sql
+> grant usage on schema storage to authenticated;
+> grant select, insert, update on table storage.objects to authenticated;
+> ```
+```
+
 ### 5. Habilitar Auth
 
 Supabase Auth viene activo por defecto. Para registro con email:

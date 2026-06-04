@@ -6,6 +6,7 @@ Formato: SemVer. Cada entrada debe incluir la versión, la fecha y una lista de 
 
 ## [Unreleased]
 - Pendiente: describir cambios en desarrollo
+- fix: evitar reportes sin imagen cuando falla subida a Storage (2026-06-04)
 - fix: corregir creación de reportes con RLS y permisos Supabase (2026-06-04)
 - feat: implementar listado de reportes con paginación y refresco automático (2026-06-04)
 - fix: validar archivos y normalizar errores en reportService (2026-06-04)

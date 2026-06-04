@@ -9,7 +9,7 @@ async function uploadImage(
   userId: string,
   reportId: string,
   file: File
-): Promise<string | null> {
+): Promise<string> {
   const ext = file.name.split(".").pop() ?? "jpg";
   const filePath = `${userId}/${reportId}/${Date.now()}.${ext}`;
 
@@ -21,8 +21,7 @@ async function uploadImage(
     });
 
   if (error) {
-    console.error("Error al subir imagen:", error.message);
-    return null;
+    throw new Error(`Error al subir imagen: ${error.message}`);
   }
 
   const { data: publicUrl } = supabase.storage
