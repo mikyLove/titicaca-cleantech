@@ -88,6 +88,84 @@ Asegúrate de añadir `.env.local` a `.gitignore` (ya debería estar en la plant
 
 ---
 
+## Configuración de Supabase
+
+Antes de usar el formulario de reportes, configura estos recursos en el Dashboard de Supabase:
+
+### 1. Tabla `reports`
+
+Ejecutar en SQL Editor:
+
+```sql
+create table if not exists public.reports (
+  id            uuid primary key default gen_random_uuid(),
+  title         text not null,
+  description   text not null,
+  location      text,
+  image_url     text,
+  user_id       uuid references auth.users(id) on delete set null,
+  status        text not null default 'pending'
+                check (status in ('pending','in_review','resolved','rejected')),
+  created_at    timestamptz not null default now(),
+  updated_at    timestamptz not null default now()
+);
+
+create index if not exists reports_status_idx on public.reports(status);
+create index if not exists reports_created_at_idx on public.reports(created_at desc);
+```
+
+### 2. Bucket `report-images`
+
+- Crear bucket público `report-images` en Storage.
+- Las imágenes se almacenan en `{userId}/{reportId}/{timestamp}.{ext}`.
+
+### 3. Políticas RLS para `reports`
+
+```sql
+alter table public.reports enable row level security;
+
+create policy "Usuarios insertan sus reportes"
+  on public.reports for insert
+  with check (auth.role() = 'authenticated' and user_id = auth.uid());
+
+create policy "Usuarios ven sus reportes"
+  on public.reports for select
+  using (auth.uid() = user_id);
+
+create policy "Usuarios actualizan sus reportes"
+  on public.reports for update
+  using (auth.uid() = user_id)
+  with check (auth.uid() = user_id);
+```
+
+### 4. Políticas RLS para Storage `report-images`
+
+```sql
+create policy "Usuarios suben imágenes a su carpeta"
+  on storage.objects for insert
+  with check (
+    bucket_id = 'report-images'
+    and auth.role() = 'authenticated'
+    and (storage.foldername(name))[1] = auth.uid()::text
+  );
+
+create policy "Usuarios ven sus imágenes"
+  on storage.objects for select
+  using (
+    bucket_id = 'report-images'
+    and auth.role() = 'authenticated'
+    and (storage.foldername(name))[1] = auth.uid()::text
+  );
+```
+
+### 5. Habilitar Auth
+
+Supabase Auth viene activo por defecto. Para registro con email:
+- Ir a Authentication → Providers → Email → habilitar.
+- Opcional: deshabilitar "Confirm email" para desarrollo.
+
+---
+
 ## Ejecución local
 
 Desarrollo con Hot Reload (Vite):

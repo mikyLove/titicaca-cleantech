@@ -2,6 +2,8 @@ import { supabase } from "../lib/supabase";
 import type { Report, CreateReportPayload } from "../types/report.types";
 
 const STORAGE_BUCKET = "report-images";
+const MAX_FILE_SIZE = 2 * 1024 * 1024;
+const ALLOWED_MIME_TYPES = ["image/jpeg", "image/png", "image/webp"];
 
 async function uploadImage(
   userId: string,
@@ -45,6 +47,12 @@ export async function createReport(
   let imageUrl: string | null = null;
 
   if (payload.file) {
+    if (!ALLOWED_MIME_TYPES.includes(payload.file.type)) {
+      throw new Error("Formato no válido. Solo se aceptan JPEG, PNG y WebP.");
+    }
+    if (payload.file.size > MAX_FILE_SIZE) {
+      throw new Error("La imagen no debe superar los 2 MB.");
+    }
     imageUrl = await uploadImage(userId, reportId, payload.file);
   }
 
@@ -62,7 +70,8 @@ export async function createReport(
     .single();
 
   if (error) {
-    throw new Error(`Error al crear reporte: ${error.message}`);
+    console.error("Error al crear reporte en Supabase:", error.message);
+    throw new Error("Error al crear reporte. Intenta de nuevo.");
   }
 
   return data as Report;
@@ -103,7 +112,8 @@ export async function listReports(
   const { data, error } = await query;
 
   if (error) {
-    throw new Error(`Error al listar reportes: ${error.message}`);
+    console.error("Error al listar reportes en Supabase:", error.message);
+    throw new Error("Error al cargar reportes. Intenta de nuevo.");
   }
 
   return (data ?? []) as Report[];
