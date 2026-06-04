@@ -1,5 +1,5 @@
 {
   "labels": ["autoapply"],
-  "reviewers": [],
-  "assignees": []
+  "reviewers": ["mikyLove"],
+  "assignees": ["mikyLove"]
 }
