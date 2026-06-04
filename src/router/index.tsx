@@ -2,8 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import LoginPage from "../pages/LoginPage";
 import RegisterPage from "../pages/RegisterPage";
+import HomePage from "../pages/HomePage";
 import AuthGuard from "../components/AuthGuard";
-import ReportForm from "../components/ReportForm";
 
 export const router = createBrowserRouter([
   {
@@ -14,9 +14,7 @@ export const router = createBrowserRouter([
         index: true,
         element: (
           <AuthGuard>
-            <div className="w-full flex justify-center">
-              <ReportForm />
-            </div>
+            <HomePage />
           </AuthGuard>
         ),
       },
