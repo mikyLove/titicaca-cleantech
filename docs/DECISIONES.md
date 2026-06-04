@@ -30,3 +30,14 @@ Registro de decisiones importantes y su razonamiento.
 	- Excluir secretos de los cambios.
 
 Razonamiento: mejora la trazabilidad, facilita revisiones pequeñas y preserva la seguridad operativa.
+
+## D-005: Autenticación con Supabase Auth (2026-06-04)
+
+- Contexto: Se requiere autenticación básica para asociar reportes a usuarios y proteger rutas. Supabase Auth ya está disponible como parte de la SDK `@supabase/supabase-js`.
+- Decisión: Implementar Auth directamente con Supabase Auth (email + password) sin librerías adicionales. Arquitectura:
+  - `authService.ts`: capa de acceso a Supabase Auth (login, register, logout, getSession).
+  - `useAuth.ts`: contexto React con `AuthProvider` que expone `user`, `loading`, `login`, `register`, `logout`. Se suscribe a `onAuthStateChange` para persistencia de sesión automática.
+  - `AuthGuard.tsx`: componente que protege rutas redirigiendo a `/login` si no hay sesión.
+  - `LoginPage` y `RegisterPage`: páginas públicas con formularios mínimos.
+  - Integración con `reportService.ts`: `createReport` obtiene `user_id` desde `supabase.auth.getSession()`.
+- Razonamiento: Sin dependencias extras, tipado nativo TypeScript, sesión persistente vía `onAuthStateChange`, preparado para migrar a RLS por usuario cuando se active.

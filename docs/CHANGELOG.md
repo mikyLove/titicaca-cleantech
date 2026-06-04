@@ -6,6 +6,7 @@ Formato: SemVer. Cada entrada debe incluir la versión, la fecha y una lista de 
 
 ## [Unreleased]
 - Pendiente: describir cambios en desarrollo
+- feat: implementar autenticación con Supabase Auth (2026-06-04)
 - feat: integrar servicio de reportes con Supabase (2026-06-04)
 - fix: limpiar tipado de ReportForm y eliminar directivas ESLint innecesarias (2026-06-04)
 - feat: agregar `ReportForm` y `reportService` (stub) (2026-06-04)

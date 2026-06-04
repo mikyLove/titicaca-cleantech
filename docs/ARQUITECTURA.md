@@ -15,9 +15,11 @@ Titicaca CleanTech es una plataforma para el reporte, monitoreo y gestión de re
 
 ## Frontend
 
-- Estructura: `src/components`, `src/pages`, `src/services`, `src/hooks`.
-- Comunicación con Supabase desde `src/services/supabaseService.ts` usando la SDK oficial.
-- Rutas principales: página de inicio, formulario de reporte, listado de reportes, panel administrativo.
+- Estructura: `src/components`, `src/pages`, `src/services`, `src/hooks`, `src/router`, `src/types`, `src/lib`.
+- Comunicación con Supabase desde `src/lib/supabase.ts` (cliente inicializado) y `src/services/` (lógica de negocio).
+- Enrutamiento con React Router 7 (`src/router/index.tsx`): ruta raíz protegida con `AuthGuard`, rutas públicas `/login` y `/register`.
+- Autenticación gestionada mediante `src/hooks/useAuth.ts` (contexto React + `AuthProvider`) y `src/services/authService.ts` (capa de acceso a Supabase Auth).
+- Rutas principales: página de inicio (protegida, formulario de reporte), login, registro.
 
 ## Backend / Integraciones
 

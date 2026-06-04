@@ -34,6 +34,9 @@ export async function createReport(
 ): Promise<Report> {
   const reportId = crypto.randomUUID();
 
+  const { data: sessionData } = await supabase.auth.getSession();
+  const userId = sessionData.session?.user?.id ?? null;
+
   let imageUrl: string | null = null;
 
   if (payload.file) {
@@ -48,7 +51,7 @@ export async function createReport(
       description: payload.description,
       location: payload.location ?? null,
       image_url: imageUrl,
-      user_id: null,
+      user_id: userId,
     })
     .select()
     .single();
