@@ -8,7 +8,7 @@ type FormState = {
   file: File | null;
 };
 
-export default function ReportForm() {
+export default function ReportForm({ onSuccess }: { onSuccess?: () => void }) {
   const [form, setForm] = useState<FormState>({
     title: "",
     description: "",
@@ -43,6 +43,7 @@ export default function ReportForm() {
       const res = await createReport(payload);
       setMessage(`Reporte creado: ${res.id}`);
       setForm({ title: "", description: "", location: "", file: null });
+      onSuccess?.();
     } catch (err) {
       setMessage("Error al crear el reporte.");
       console.error(err);
