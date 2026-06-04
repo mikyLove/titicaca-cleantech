@@ -56,25 +56,37 @@ export async function createReport(
     imageUrl = await uploadImage(userId, reportId, payload.file);
   }
 
-  const { data, error } = await supabase
+  const insertPayload = {
+    id: reportId,
+    title: payload.title,
+    description: payload.description,
+    location: payload.location ?? null,
+    image_url: imageUrl,
+    user_id: userId,
+  };
+
+  const { error } = await supabase
     .from("reports")
-    .insert({
-      id: reportId,
-      title: payload.title,
-      description: payload.description,
-      location: payload.location ?? null,
-      image_url: imageUrl,
-      user_id: userId,
-    })
-    .select()
-    .single();
+    .insert(insertPayload);
 
   if (error) {
     console.error("Error al crear reporte en Supabase:", error.message);
     throw new Error("Error al crear reporte. Intenta de nuevo.");
   }
 
-  return data as Report;
+  const newReport: Report = {
+    id: reportId,
+    title: payload.title,
+    description: payload.description,
+    location: payload.location ?? null,
+    image_url: imageUrl,
+    user_id: userId,
+    status: "pending",
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString(),
+  };
+
+  return newReport;
 }
 
 export interface ListReportsOptions {
