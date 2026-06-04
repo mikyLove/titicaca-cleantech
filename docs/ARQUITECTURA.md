@@ -40,7 +40,10 @@ Titicaca CleanTech es una plataforma para el reporte, monitoreo y gestión de re
 ## Consideraciones de seguridad
 
 - Nunca exponer claves privadas en el cliente.
-- Revisar reglas de Row Level Security (RLS) en Supabase para proteger datos.
+- Row Level Security (RLS) implementada en Supabase para `reports` y `report-images`:
+  - **Tabla `reports`**: los usuarios autenticados solo insertan, ven y actualizan sus propios reportes (`user_id = auth.uid()`).
+  - **Storage `report-images`**: las imágenes se almacenan en `{userId}/{reportId}/` y solo el dueño puede subir/ver sus archivos.
+  - Las políticas se aplican desde la base de datos; el frontend no puede eludirlas aunque use la anon key.
 
 ## Escalabilidad y extensibilidad
 
