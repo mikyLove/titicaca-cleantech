@@ -1,0 +1,28 @@
+name: Email on PR Opened
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send email notification
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_HOST }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USER }}
+          password: ${{ secrets.SMTP_PASS }}
+          subject: "[Titicaca] PR creado: ${{ github.event.pull_request.title }}"
+          body: |
+            Se ha creado un Pull Request automáticamente.
+
+            Título: ${{ github.event.pull_request.title }}
+            Autor: ${{ github.event.pull_request.user.login }}
+            URL: ${{ github.event.pull_request.html_url }}
+
+            Revisa el PR en GitHub.
+          to: ${{ secrets.NOTIFY_EMAIL }}
+          from: "titicaca-notifier@localhost"

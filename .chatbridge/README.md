@@ -8,6 +8,18 @@ Contenido:
 - `autoapply.js`: valida y aplica automáticamente `pending.patch`, crea commit y push en una rama `autoapply/...`.
 - `config.example.json`: ejemplo de configuración.
 
+Notificaciones por email:
+- El repositorio tiene un workflow que envía un email cuando se abre un PR (`.github/workflows/email-on-pr.yml`).
+- Para que funcione debes añadir los siguientes secrets en el repositorio (Settings → Secrets):
+	- `SMTP_HOST` — dirección del servidor SMTP (p.ej. smtp.gmail.com)
+	- `SMTP_PORT` — puerto del servidor (p.ej. 587)
+	- `SMTP_USER` — usuario SMTP
+	- `SMTP_PASS` — contraseña o app password
+	- `NOTIFY_EMAIL` — dirección de correo destino para las notificaciones
+
+Ejemplo: en GitHub, añade los secrets y el workflow enviará un email cada vez que se abra un PR (incluye los PRs de revert).
+
+
 Requisitos:
 - Node.js 18+
 - Playwright (instalado localmente mediante `npm install` en este directorio)

@@ -1,5 +1,6 @@
 {
   "labels": ["autoapply"],
   "reviewers": ["mikyLove"],
-  "assignees": ["mikyLove"]
+  "assignees": ["mikyLove"],
+  "notifyEmails": []
 }
