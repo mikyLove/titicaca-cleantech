@@ -1,0 +1,2 @@
+starttime	seconds	ctime	dtime	ttime	wait
+Sun Jun 14 22:07:56 2026	1781492876	332	187	518	177

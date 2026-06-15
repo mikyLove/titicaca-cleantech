@@ -1,0 +1,15 @@
+============================================
+ RESUMEN DE PRUEBAS DE CARGA
+ Fecha: dom 14 jun 2026 22:02:42 -05
+ URL Base: https://titicaca-cleantech.vercel.app
+============================================
+
+=== Escenario 1 ===
+=== Escenario 2 ===
+=== Escenario 3 ===
+=== Escenario 4 ===
+=== Escenario 5 ===
+=== Escenario 6 ===
+=== Escenario 7 ===
+=== Escenario 8 ===
+=== Escenario 9 ===

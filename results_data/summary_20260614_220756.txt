@@ -1,0 +1,132 @@
+============================================
+ RESUMEN DE PRUEBAS DE CARGA
+ Fecha: dom 14 jun 2026 22:13:17 -05
+ URL Base: https://titicaca-cleantech.vercel.app
+============================================
+
+=== Escenario 1 ===
+Server Software:        Vercel
+Server Hostname:        titicaca-cleantech.vercel.app
+Document Path:          /
+Document Length:        0 bytes
+Concurrency Level:      1
+Time taken for tests:   0.518 seconds
+Complete requests:      1
+Failed requests:        1
+Total transferred:      34370 bytes
+Requests per second:    1.93 [#/sec] (mean)
+Time per request:       518.322 [ms] (mean)
+Time per request:       518.322 [ms] (mean, across all concurrent requests)
+Transfer rate:          64.76 [Kbytes/sec] received
+=== Escenario 2 ===
+Server Software:        Vercel
+Server Hostname:        titicaca-cleantech.vercel.app
+Document Path:          /
+Document Length:        0 bytes
+Concurrency Level:      10
+Time taken for tests:   30.003 seconds
+Complete requests:      742
+Failed requests:        742
+Total transferred:      21782472 bytes
+Requests per second:    24.73 [#/sec] (mean)
+Time per request:       404.360 [ms] (mean)
+Time per request:       40.436 [ms] (mean, across all concurrent requests)
+Transfer rate:          708.98 [Kbytes/sec] received
+=== Escenario 3 ===
+Server Software:        Vercel
+Server Hostname:        titicaca-cleantech.vercel.app
+Document Path:          /
+Document Length:        0 bytes
+Concurrency Level:      50
+Time taken for tests:   22.265 seconds
+Complete requests:      1000
+Failed requests:        1000
+Total transferred:      28029776 bytes
+Requests per second:    44.91 [#/sec] (mean)
+Time per request:       1113.237 [ms] (mean)
+Time per request:       22.265 [ms] (mean, across all concurrent requests)
+Transfer rate:          1229.42 [Kbytes/sec] received
+=== Escenario 4 ===
+Server Software:        Vercel
+Server Hostname:        titicaca-cleantech.vercel.app
+Document Path:          /
+Document Length:        0 bytes
+Concurrency Level:      200
+Time taken for tests:   30.004 seconds
+Complete requests:      1674
+Failed requests:        1669
+Total transferred:      47268420 bytes
+Requests per second:    55.79 [#/sec] (mean)
+Time per request:       3584.678 [ms] (mean)
+Time per request:       17.923 [ms] (mean, across all concurrent requests)
+Transfer rate:          1538.49 [Kbytes/sec] received
+=== Escenario 5 ===
+Server Software:        Vercel
+Server Hostname:        titicaca-cleantech.vercel.app
+Document Path:          /login
+Document Length:        0 bytes
+Concurrency Level:      30
+Time taken for tests:   8.314 seconds
+Complete requests:      300
+Failed requests:        300
+Total transferred:      8551451 bytes
+Requests per second:    36.09 [#/sec] (mean)
+Time per request:       831.350 [ms] (mean)
+Time per request:       27.712 [ms] (mean, across all concurrent requests)
+Transfer rate:          1004.51 [Kbytes/sec] received
+=== Escenario 6 ===
+Server Software:        Vercel
+Server Hostname:        titicaca-cleantech.vercel.app
+Document Path:          /
+Document Length:        0 bytes
+Concurrency Level:      100
+Time taken for tests:   60.002 seconds
+Complete requests:      3308
+Failed requests:        3307
+Total transferred:      91796867 bytes
+Requests per second:    55.13 [#/sec] (mean)
+Time per request:       1813.843 [ms] (mean)
+Time per request:       18.138 [ms] (mean, across all concurrent requests)
+Transfer rate:          1494.04 [Kbytes/sec] received
+=== Escenario 7 ===
+Server Software:        Vercel
+Server Hostname:        titicaca-cleantech.vercel.app
+Document Path:          /
+Document Length:        0 bytes
+Concurrency Level:      500
+Time taken for tests:   30.001 seconds
+Complete requests:      1490
+Failed requests:        1489
+Total transferred:      42443262 bytes
+Requests per second:    49.67 [#/sec] (mean)
+Time per request:       10067.355 [ms] (mean)
+Time per request:       20.135 [ms] (mean, across all concurrent requests)
+Transfer rate:          1381.58 [Kbytes/sec] received
+=== Escenario 8 ===
+Server Software:        Vercel
+Server Hostname:        titicaca-cleantech.vercel.app
+Document Path:          /
+Document Length:        0 bytes
+Concurrency Level:      75
+Time taken for tests:   120.019 seconds
+Complete requests:      6190
+Failed requests:        6188
+Total transferred:      173911382 bytes
+Requests per second:    51.58 [#/sec] (mean)
+Time per request:       1454.184 [ms] (mean)
+Time per request:       19.389 [ms] (mean, across all concurrent requests)
+Transfer rate:          1415.07 [Kbytes/sec] received
+=== Escenario 9 ===
+Server Software:        Vercel
+Server Hostname:        titicaca-cleantech.vercel.app
+Document Path:          /
+Document Length:        0 bytes
+Concurrency Level:      300
+Time taken for tests:   13.897 seconds
+Complete requests:      500
+Failed requests:        499
+Total transferred:      13626864 bytes
+Requests per second:    35.98 [#/sec] (mean)
+Time per request:       8338.345 [ms] (mean)
+Time per request:       27.794 [ms] (mean, across all concurrent requests)
+Transfer rate:          957.56 [Kbytes/sec] received
