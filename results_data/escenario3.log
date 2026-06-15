@@ -1,0 +1,2221 @@
+[1;33m----------------------------------------------------------------------[0m
+[1;33m  Escenario 3: 50 usuarios concurrentes - 1000 solicitudes[0m
+[1;33m  Comando: ab -g results_data/escenario3.txt -n 1000 -c 50 -H Accept: text/html,application/json https://titicaca-cleantech.vercel.app/[0m
+[1;33m----------------------------------------------------------------------[0m
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking titicaca-cleantech.vercel.app (be patient)
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+Completed 100 requests
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+Completed 200 requests
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+Completed 300 requests
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+Completed 400 requests
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+Completed 500 requests
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+Completed 600 requests
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+Completed 700 requests
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+Completed 800 requests
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+Completed 900 requests
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000197:SSL routines:SSL_shutdown:shutdown while in init:../ssl/ssl_lib.c:2797:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+SSL read failed (1) - closing connection
+009C93EDA77C0000:error:0A000126:SSL routines::unexpected eof while reading:../ssl/record/rec_layer_s3.c:698:
+Completed 1000 requests
+Finished 1000 requests
+
+
+Server Software:        Vercel
+Server Hostname:        titicaca-cleantech.vercel.app
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.3,TLS_AES_128_GCM_SHA256,2048,128
+TLS Server Name:        titicaca-cleantech.vercel.app
+
+Document Path:          /
+Document Length:        0 bytes
+
+Concurrency Level:      50
+Time taken for tests:   22.265 seconds
+Complete requests:      1000
+Failed requests:        1000
+   (Connect: 0, Receive: 0, Length: 1000, Exceptions: 0)
+Non-2xx responses:      1000
+Total transferred:      28029776 bytes
+HTML transferred:       27485776 bytes
+Requests per second:    44.91 [#/sec] (mean)
+Time per request:       1113.237 [ms] (mean)
+Time per request:       22.265 [ms] (mean, across all concurrent requests)
+Transfer rate:          1229.42 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      216  627 438.5    575    8871
+Processing:   129  434 307.0    370    4339
+Waiting:      118  378 212.3    340    2325
+Total:        390 1061 594.3   1014   10239
+
+Percentage of the requests served within a certain time (ms)
+  50%   1014
+  66%   1167
+  75%   1247
+  80%   1313
+  90%   1519
+  95%   1909
+  98%   2544
+  99%   3253
+ 100%  10239 (longest request)
+
+[0;32m[INFO][0m Escenario 3 completado. Resultados en: results_data/escenario3.txt
+

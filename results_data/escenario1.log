@@ -1,0 +1,46 @@
+This is ApacheBench, Version 2.3 <$Revision: 1923142 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking titicaca-cleantech.vercel.app (be patient).....done
+
+
+Server Software:        Vercel
+Server Hostname:        titicaca-cleantech.vercel.app
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.3,TLS_AES_128_GCM_SHA256,2048,128
+TLS Server Name:        titicaca-cleantech.vercel.app
+
+Document Path:          /
+Document Length:        0 bytes
+
+Concurrency Level:      1
+Time taken for tests:   4.694 seconds
+Complete requests:      10
+Failed requests:        10
+   (Connect: 0, Receive: 0, Length: 10, Exceptions: 0)
+Non-2xx responses:      8
+Total transferred:      276939 bytes
+HTML transferred:       271567 bytes
+Requests per second:    2.13 [#/sec] (mean)
+Time per request:       469.383 [ms] (mean)
+Time per request:       469.383 [ms] (mean, across all concurrent requests)
+Transfer rate:          57.62 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      199  271  51.9    265     362
+Processing:   122  198 125.2    145     460
+Waiting:      119  192 128.4    138     460
+Total:        330  469 138.5    412     756
+
+Percentage of the requests served within a certain time (ms)
+  50%    412
+  66%    490
+  75%    507
+  80%    655
+  90%    756
+  95%    756
+  98%    756
+  99%    756
+ 100%    756 (longest request)
